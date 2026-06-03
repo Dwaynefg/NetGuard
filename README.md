@@ -4,7 +4,7 @@ NetGuard is a lightweight, automated network monitoring tool written in Python. 
 
 ---
 
-## 🏗️ How It Works
+##  How It Works
 
 NetGuard establishes a baseline map of your network fabric and compares future scans against that blueprint to detect unauthorized changes.
 
@@ -18,7 +18,7 @@ NetGuard establishes a baseline map of your network fabric and compares future s
 
 ---
 
-## 💻 Technical Stack
+## Technical Stack
 
 - **Language:** Python 3
 - **Core Dependencies:** python-nmap (Wrapper for the native Nmap C-engine)
@@ -27,7 +27,7 @@ NetGuard establishes a baseline map of your network fabric and compares future s
 
 ---
 
-## 🚀 Step-by-Step Setup & Verification Guide
+##  Step-by-Step Setup & Verification Guide
 
 Follow these exact steps to deploy NetGuard in your environment and verify that the intrusion detection capabilities are working correctly.
 
@@ -68,7 +68,7 @@ NetGuard's internal engine will immediately intercept the delta difference betwe
 
 ---
 
-## ⏰ Automated Daily Execution (Production Deployment)
+##  Automated Daily Execution (Production Deployment)
 
 To configure NetGuard as a hands-free security daemon that continuously sweeps your network architecture automatically every night at midnight, create a root cronjob schedule entry:
 "sudo crontab -e"
