@@ -13,7 +13,7 @@ def run_network_scan(target_subnet):
     """Scans the network for active hosts and open ports."""
     nm = nmap.PortScanner()
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    print(f"[*] [{now}] NetGuard: Scanning subnet {target_subnet}...")
+    print(f"[*] [{now}] DCydra: Scanning subnet {target_subnet}...")
     
     try:
         # -Pn: Assumes hosts are up (bypasses VirtualBox ping blocks)
