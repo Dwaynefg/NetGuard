@@ -66,12 +66,6 @@ Now, let's intentionally simulate configuration drift to verify the alerting and
 "sudo python3 DCydra.py"
 NetGuard's internal engine will immediately intercept the delta difference between the active state and your baseline blueprint, calculating risk flags and raising a live alert right inside your console!
 
----
-
-##  Automated Daily Execution (Production Deployment)
-
-To configure NetGuard as a hands-free security daemon that continuously sweeps your network architecture automatically every night at midnight, create a root cronjob schedule entry:
-"sudo crontab -e"
 
 Add the following configuration line to the very bottom of the scheduler registry:
 0 0 * * * /usr/bin/python3 /absolute/path/to/DCydra.py >> /var/log/DCydra.log 2>&1
